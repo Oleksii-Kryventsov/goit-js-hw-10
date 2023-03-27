@@ -13,6 +13,10 @@ body {
   background-color: #c9c8c8;
 }
 
+li {
+  list-style: none;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
@@ -39,10 +43,21 @@ body {
   margin-bottom: 30px;
 }
 
-.input{
+.input {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   margin-bottom: 30px;
 }
+
+
+.country-info__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
